@@ -1,0 +1,205 @@
+body {
+    font-family: sans-serif;
+    background-image: url("folder/11.png");
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 10px solid black;
+}
+
+.header_content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.header_img {
+    width: 50%;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-top: 15px;
+    color: #FFA877;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+nav a:last-child {
+    color: white;
+    padding-top: 25px;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+nav a:first-child {
+    border-bottom: 5px solid black;
+    font-size: 40px;
+}
+
+.sushi_red {
+    color: red;
+}
+
+.pizza_BD8D8D {
+    color: #BD8D8D;
+}
+
+.sushi_1 {
+    color: red;
+    font-size: 50px;
+    margin-top: 130px;
+    margin-left: 40px;
+}
+
+main {
+    border-left: 13px double black;
+}
+
+.main_img_1 {
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 400px;
+}
+
+.main_p_1 {
+    position: relative;
+    text-align: right;
+    bottom: 300px;
+    color: white;
+    font-size: 30px;
+}
+
+.Philadelphia_classic {
+    border-bottom: 5px solid black;
+}
+
+.sushi_2 {
+    color: red;
+    font-size: 50px;
+    position: absolute;
+    top: 1150px;
+    margin-left: 40px;
+}
+
+.main_img_2 {
+    margin-left: 40px;
+    position: absolute;
+    top: 1250px;
+    margin-top: 70px;
+    height: 250px;
+    width: 400px;
+}
+
+.main_p_2 {
+    position: relative;
+    text-align: right;
+    bottom: 100px;
+    color: white;
+    font-size: 30px;
+}
+
+.section2_h1 {
+    color: red;
+    position: absolute;
+    top: 1650px;
+    font-size: 50px;
+    margin-left: 40px;
+}
+
+.main_img_3 {
+    position: absolute;
+    height: 200px;
+    top: 1740px;
+    margin-left: 40px;
+    margin-top: 70px;
+}
+
+.main_p_3 {
+    position: absolute;
+    top: 1780px;
+    text-align: right;
+    font-size: 30px;
+    color: white;
+    right: 10px;
+}
+.main_p_4 {
+    position: absolute;
+    top: 2180px;
+    text-align: right;
+    font-size: 30px;
+    color: white;
+    right: 10px;
+}
+
+.main_img_4 {
+    position: absolute;
+    height: 200px;
+    top: 2130px;
+    margin-left: 40px;
+    margin-top: 70px;
+}
+
+.h1lasmain {
+    color: red;
+    position: absolute;
+    top: 2050px;
+    font-size: 50px;
+    margin-left: 40px;
+}
+
+footer {
+    position: fixed;
+}
+
+.phone {
+    height: 50px;
+    top: 0px;
+    position: fixed;
+    left: -30px;
+}
+
+.viber {
+    height: 40px;
+    position: fixed;
+    top: 70px;
+    left: -20px;
+}
+
+.tg {
+    height: 40px;
+    position: fixed;
+    top: 140px;
+    left: -20px
+}
+
+.phone:hover {
+    left: 1px;
+    transition: 1s;
+    background-color: black;
+    padding-right: 100px;
+    height: 80px;
+}
+
+.viber:hover {
+    left: 1px;
+    transition: 1s;
+    background-color: rgb(110, 40, 176);
+    padding-right: 100px;
+    height: 80px;
+}
+
+.tg:hover {
+    left: 1px;
+    transition: 1s;
+    background-color: turquoise;
+    padding-right: 110px;
+    height: 80px;
+}
